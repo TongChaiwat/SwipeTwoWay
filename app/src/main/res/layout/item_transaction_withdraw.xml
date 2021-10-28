@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.charmist.swipetwoway.SwipeRevealLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/teal_200"
+                android:id="@+id/cardViewgg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:cardCornerRadius="@dimen/cardview_corner_radius_l"
+                app:cardElevation="3dp"
+                app:layout_constraintEnd_toStartOf="@+id/guidelinegg"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardImageBankgg"
+                        android:layout_width="@dimen/image_in_time_line"
+                        android:layout_height="@dimen/image_in_time_line"
+                        android:layout_marginStart="@dimen/default_margin_8"
+                        app:cardBackgroundColor="@color/purple_200"
+                        app:cardCornerRadius="@dimen/timeline_radius"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="false"
+                        app:layout_constraintBottom_toBottomOf="@+id/llDetailgg"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/llDetailgg">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@color/purple_200"
+                            app:cardCornerRadius="@dimen/timeline_radius"
+                            app:cardElevation="0dp"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardUseCompatPadding="false">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorTransparent"
+                                android:elevation="@dimen/default_zero"
+                                app:cardBackgroundColor="@color/colorTransparent"
+                                app:cardCornerRadius="12.5dp"
+                                app:cardElevation="@dimen/default_zero"
+                                app:cardPreventCornerOverlap="false"
+                                app:cardUseCompatPadding="false">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:id="@+id/bg_withdraw_fromgg"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@color/colorPrimaryDark" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <ImageView
+                                android:id="@+id/imageBankgg"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </androidx.cardview.widget.CardView>
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:id="@+id/llDetailgg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/default_margin_16"
+                        android:layout_marginEnd="@dimen/default_margin_8"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/cardImageBankgg"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textTransactionTypegg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/default_margin_8"
+                                android:ellipsize="end"
+                                android:gravity="start"
+                                android:maxLines="1"
+                                android:text="BANK TRANSFER cccccccc sdsdsdsdsdsd"
+                                android:textColor="@color/mymo_black_87"
+                                app:layout_constraintBaseline_toBaselineOf="@+id/textAmountgg"
+
+                                app:layout_constraintBottom_toBottomOf="@+id/textAmountgg" />
+
+                            <TextView
+                                android:id="@+id/textSubDescriptiongg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/default_margin_8"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+
+                                android:text="My Savings My Savings My Savings My Savings My Savings My Savings My Savings"
+                                android:textColor="@color/mymo_black_56"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintHorizontal_weight="3"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical|end"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/default_margin_2">
+
+                            <TextView
+                                android:id="@+id/textAmountgg"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="end|center_vertical"
+                                android:maxLines="1"
+                                android:text="-1,000"
+                                android:textColor="@color/mymo_pink_landing"
+                                app:autoSizeMaxTextSize="@dimen/text_size_15"
+                                app:autoSizeMinTextSize="@dimen/text_size_5"
+                                app:autoSizeStepGranularity="2sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3gg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/llDetailgg">
+
+                        <TextView
+                            android:id="@+id/textTopWithdrawgg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:text="ACCOUNT ACCOUNT NOTE"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textWithdrawDategg"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintHorizontal_weight="3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textWithdrawDategg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:text="20 JAN |"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toStartOf="@+id/textWithdrawTimegg"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textWithdrawTimegg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/default_margin_2"
+                            android:text="2:00 PM"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textBottomWithdrawgg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/default_margin_8"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:text="Tags: #Family #Mommy #Daddy #Dinner"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textTopWithdrawgg" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                app:layout_constraintStart_toStartOf="@+id/cardViewgg"
+                app:layout_constraintTop_toBottomOf="@+id/cardViewgg" />
+
+            <View
+                android:id="@+id/guidelinegg"
+                android:layout_width="55dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cardViewgg"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                app:cardCornerRadius="@dimen/cardview_corner_radius_l"
+                app:cardElevation="3dp"
+                app:layout_constraintEnd_toStartOf="@+id/guideline3"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardImageBank"
+                        android:layout_width="@dimen/image_in_time_line"
+                        android:layout_height="@dimen/image_in_time_line"
+                        android:layout_marginStart="@dimen/default_margin_8"
+                        app:cardBackgroundColor="@color/timeline_border"
+                        app:cardCornerRadius="@dimen/timeline_radius"
+                        app:cardElevation="0dp"
+                        app:cardPreventCornerOverlap="false"
+                        app:cardUseCompatPadding="false"
+                        app:layout_constraintBottom_toBottomOf="@+id/llDetail"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="@+id/llDetail">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            app:cardBackgroundColor="@color/mymo_white"
+                            app:cardCornerRadius="@dimen/timeline_radius"
+                            app:cardElevation="0dp"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardUseCompatPadding="false">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorTransparent"
+                                android:elevation="@dimen/default_zero"
+                                app:cardBackgroundColor="@color/colorTransparent"
+                                app:cardCornerRadius="12.5dp"
+                                app:cardElevation="@dimen/default_zero"
+                                app:cardPreventCornerOverlap="false"
+                                app:cardUseCompatPadding="false">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:id="@+id/bg_withdraw_from"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@color/colorPrimaryDark" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <ImageView
+                                android:id="@+id/imageBank"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </androidx.cardview.widget.CardView>
+                    </androidx.cardview.widget.CardView>
+
+                    <LinearLayout
+                        android:id="@+id/llDetail"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/default_margin_16"
+                        android:layout_marginEnd="@dimen/default_margin_8"
+                        android:orientation="horizontal"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toEndOf="@+id/cardImageBank"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textTransactionType"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/default_margin_8"
+                                android:ellipsize="end"
+                                android:gravity="start"
+                                android:maxLines="1"
+                                android:text="BANK TRANSFER cccccccc sdsdsdsdsdsd"
+                                android:textColor="@color/mymo_black_87"
+                                app:layout_constraintBaseline_toBaselineOf="@+id/textAmount"
+
+                                app:layout_constraintBottom_toBottomOf="@+id/textAmount" />
+
+                            <TextView
+                                android:id="@+id/textSubDescription"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginEnd="@dimen/default_margin_8"
+                                android:ellipsize="end"
+                                android:singleLine="true"
+
+                                android:text="My Savings My Savings My Savings My Savings My Savings My Savings My Savings"
+                                android:textColor="@color/mymo_black_56"
+                                app:layout_constraintHorizontal_bias="0.5"
+                                app:layout_constraintHorizontal_weight="3"
+                                app:layout_constraintStart_toStartOf="parent" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical|end"
+                            android:orientation="vertical"
+                            android:paddingBottom="@dimen/default_margin_2">
+
+                            <TextView
+                                android:id="@+id/textAmount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:ellipsize="end"
+                                android:gravity="end|center_vertical"
+                                android:maxLines="1"
+                                android:text="-1,000"
+                                android:textColor="@color/mymo_pink_landing"
+                                app:autoSizeMaxTextSize="@dimen/text_size_15"
+                                app:autoSizeMinTextSize="@dimen/text_size_5"
+                                app:autoSizeStepGranularity="2sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/llDetail">
+
+                        <TextView
+                            android:id="@+id/textTopWithdraw"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:text="ACCOUNT ACCOUNT NOTE"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textWithdrawDate"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintHorizontal_weight="3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textWithdrawDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:text="20 JAN |"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toStartOf="@+id/textWithdrawTime"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textWithdrawTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/default_margin_2"
+                            android:text="2:00 PM"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
+                            android:id="@+id/textBottomWithdraw"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/default_margin_8"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:text="Tags: #Family #Mommy #Daddy #Dinner"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textTopWithdraw" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                app:layout_constraintStart_toStartOf="@+id/cardView"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <View
+                android:id="@+id/guideline3"
+                android:layout_width="55dp"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="@+id/cardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </com.charmist.swipetwoway.SwipeRevealLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

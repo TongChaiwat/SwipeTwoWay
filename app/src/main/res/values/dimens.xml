@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_margin">8dp</dimen>
+    <dimen name="default_margin_large">16dp</dimen>
+    <dimen name="card_shadow_margin">8dp</dimen>
+    <dimen name="card_inner_padding">16dp</dimen>
+    <dimen name="text_title">20sp</dimen>
+    <dimen name="text_content">14sp</dimen>
+
+    <dimen name="default_zero">0dp</dimen>
+    <dimen name="default_margin_1">1dp</dimen>
+    <dimen name="default_margin_2">2dp</dimen>
+    <dimen name="default_margin_4">4dp</dimen>
+    <dimen name="default_margin_5">5dp</dimen>
+    <dimen name="default_margin_6">6dp</dimen>
+    <dimen name="default_margin_8">8dp</dimen>
+    <dimen name="default_margin_10">10dp</dimen>
+    <dimen name="default_margin_11">11dp</dimen>
+    <dimen name="default_margin_12">12dp</dimen>
+    <dimen name="default_margin_13">13dp</dimen>
+    <dimen name="default_margin_14">14dp</dimen>
+    <dimen name="default_margin_15">15dp</dimen>
+    <dimen name="default_margin_16">16dp</dimen>
+    <dimen name="default_margin_18">18dp</dimen>
+    <dimen name="default_margin_19">19dp</dimen>
+    <dimen name="default_margin_20">20dp</dimen>
+    <dimen name="default_margin_22">22dp</dimen>
+    <dimen name="default_margin_23">23dp</dimen>
+    <dimen name="default_margin_24">24dp</dimen>
+    <dimen name="default_margin_26">26dp</dimen>
+    <dimen name="default_margin_28">28dp</dimen>
+    <dimen name="default_margin_30">30dp</dimen>
+    <dimen name="default_margin_32">32dp</dimen>
+    <dimen name="default_margin_34">34dp</dimen>
+    <dimen name="default_margin_36">36dp</dimen>
+    <dimen name="default_margin_38">38dp</dimen>
+    <dimen name="default_margin_39">39dp</dimen>
+    <dimen name="default_margin_40">40dp</dimen>
+    <dimen name="default_margin_41">41dp</dimen>
+    <dimen name="default_margin_42">42dp</dimen>
+    <dimen name="default_margin_43">43dp</dimen>
+    <dimen name="default_margin_44">44dp</dimen>
+    <dimen name="default_margin_45">45dp</dimen>
+    <dimen name="default_margin_46">46dp</dimen>
+    <dimen name="default_margin_48">48dp</dimen>
+    <dimen name="default_margin_50">50dp</dimen>
+    <dimen name="default_margin_52">52dp</dimen>
+    <dimen name="default_margin_56">56dp</dimen>
+    <dimen name="default_margin_58">58dp</dimen>
+    <dimen name="default_margin_60">60dp</dimen>
+    <dimen name="default_margin_62">62dp</dimen>
+    <dimen name="default_margin_64">64dp</dimen>
+    <dimen name="default_margin_68">68dp</dimen>
+    <dimen name="default_margin_72">72dp</dimen>
+    <dimen name="default_margin_76">76dp</dimen>
+    <dimen name="default_margin_80">80dp</dimen>
+    <dimen name="default_margin_100">100dp</dimen>
+    <dimen name="default_margin_132">132dp</dimen>
+    <dimen name="default_margin_152">152dp</dimen>
+    <dimen name="default_margin_168">168dp</dimen>
+    <dimen name="default_margin_200">200dp</dimen>
+    <dimen name="default_elevation">4dp</dimen>
+    <dimen name="default_margin_72_1">72dp</dimen>
+
+    //============= Text Size ========================//
+
+    <dimen name="text_size_12_dp">12dp</dimen>
+
+    <dimen name="text_size_5">5sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_11">11sp</dimen>
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_17">17sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_19">19sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_23">23sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_28">28sp</dimen>
+    <dimen name="text_size_30">30sp</dimen>
+    <dimen name="text_size_40">40sp</dimen>
+    <dimen name="text_size_45">45sp</dimen>
+
+    //============= Icon Size ========================//
+
+    <dimen name="icon_size_5xl">68dp</dimen>
+    <dimen name="icon_size_xxxxl">60dp</dimen>
+    <dimen name="icon_size_xxxl">56dp</dimen>
+    <dimen name="icon_size_xxl">48dp</dimen>
+    <dimen name="icon_size_xl">40dp</dimen>
+    <dimen name="icon_size_l">32dp</dimen>
+    <dimen name="icon_size_m">24dp</dimen>
+    <dimen name="icon_size_20">20dp</dimen>
+    <dimen name="icon_size_s">18dp</dimen>
+
+    <dimen name="default_padding_ic_xxl">20dp</dimen>
+    <dimen name="default_padding_ic_xl">16dp</dimen>
+    <dimen name="default_padding_ic_l">8dp</dimen>
+    <dimen name="default_padding_ic_m">4dp</dimen>
+    <dimen name="default_padding_ic_s">2dp</dimen>
+
+    <dimen name="line_spacing_extra">0sp</dimen>
+    <dimen name="seekbar_progress_height">4dp</dimen>
+    <dimen name="seekbar_background_height">52dp</dimen>
+
+    //============= Button Size ========================//
+    <dimen name="default_bottom_height">48dp</dimen>
+    <dimen name="default_bottom_height_xxl">48dp</dimen>
+    <dimen name="default_bottom_height_xl">36dp</dimen>
+    <dimen name="default_bottom_height_l">32dp</dimen>
+    <dimen name="default_bottom_height_m">28dp</dimen>
+    <dimen name="default_bottom_height_s">24dp</dimen>
+
+
+    //============= Top Tools bar ===========================//
+    <dimen name="size_left_menu">@dimen/icon_size_xxxl</dimen>
+    <dimen name="padding_left_menu_vertical">@dimen/default_margin_16</dimen>
+    <dimen name="padding_left_menu">@dimen/default_margin_16</dimen>
+    <dimen name="left_menu_parents_height">@dimen/default_margin_26</dimen>
+    <dimen name="left_menu_child_height">@dimen/default_margin_48</dimen>
+
+    <!--Default-->
+    <dimen name="default_toolbar_height">56dp</dimen>
+    <dimen name="default_toolbar_scanner_height">80dp</dimen>
+    <dimen name="default_dialog_margin">24dp</dimen>
+    <dimen name="default_dialog_margin_bottom">20dp</dimen>
+    <dimen name="default_dialog_margin_top">30dp</dimen>
+    <dimen name="default_dialog_padding">8dp</dimen>
+
+    //============= Card Size ========================//
+
+    <dimen name="cardview_top_elevation_xl">-12dp</dimen>
+    <dimen name="cardview_top_elevation_l">-10dp</dimen>
+    <dimen name="cardview_top_elevation_m">-6dp</dimen>
+    <dimen name="cardview_top_elevation_s">-4dp</dimen>
+
+    <dimen name="cardview_elevation_xl">10dp</dimen>
+    <dimen name="cardview_elevation_l">8dp</dimen>
+    <dimen name="cardview_elevation_m">4dp</dimen>
+    <dimen name="cardview_elevation_s">2dp</dimen>
+    <dimen name="cardview_elevation_5">5dp</dimen>
+    <dimen name="cardview_elevation_6">6dp</dimen>
+
+    <dimen name="cardview_corner_radius_xxl">16dp</dimen>
+    <dimen name="cardview_corner_radius_xl">16dp</dimen>
+    <dimen name="cardview_corner_radius_l">8dp</dimen>
+    <dimen name="cardview_corner_radius_m">4dp</dimen>
+    <dimen name="cardview_corner_radius_s">2dp</dimen>
+    <dimen name="cardview_corner_radius_2">2dp</dimen>
+    <dimen name="cardview_corner_radius_4_5">4.5dp</dimen>
+
+    //============= Transfer Size ========================//
+    <dimen name="card_bottom_corner_elevation">5dp</dimen>
+    <dimen name="space_card_elevation">16dp</dimen>
+    <dimen name="height_card_bottom_corner">20dp</dimen>
+
+    //============= Dialog bar ===========================//
+    <dimen name="default_padding_top_bottom_dialog">50dp</dimen>
+    <dimen name="default_padding_left_right_dialog">@dimen/default_margin_28</dimen>
+
+    <dimen name="btn_default_radius">6dp</dimen>
+    <dimen name="btn_default_radius_x">24dp</dimen>
+    <dimen name="btn_default_radius18">18dp</dimen>
+    <dimen name="btn_default_radius16">16dp</dimen>
+    <dimen name="view_default_radius">4dp</dimen>
+    <dimen name="btn_default_radius_m">8dp</dimen>
+    <dimen name="btn_default_radius_l">16dp</dimen>
+    <dimen name="dialog_corner_radius">8dp</dimen>
+
+    <dimen name="cardview_corner_radius_of_dialog">20dp</dimen>
+    <dimen name="margin_banner_view_pager">120dp</dimen>
+
+    //============= Bottom Navigation ===========================//
+
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="padding_bottom_navigation_bottom">@dimen/default_margin_6</dimen>
+    <dimen name="padding_bottom_navigation_top">@dimen/default_margin_8</dimen>
+    <dimen name="padding_bottom_navigation_image_top">@dimen/default_margin_2</dimen>
+    <dimen name="padding_bottom_navigation_image_bottom">@dimen/default_margin_2</dimen>
+
+    //============= Search result ===========================//
+    <dimen name="height_of_deal_type_image">40dp</dimen>
+    <dimen name="width_of_deal_type_image">44dp</dimen>
+
+    //============= Home View ===========================//
+    <dimen name="home_bezier_curve_height">170dp</dimen>
+    <dimen name="home_circular_stroke_border_size">8dp</dimen>
+    <dimen name="home_point_size">64dp</dimen>
+    <dimen name="home_wave_height">24dp</dimen>
+    <dimen name="home_profile_image_size">100dp</dimen>
+
+    //============= Activation View ===========================//
+    <dimen name="activation_term_condition_height">60dp</dimen>
+    <dimen name="activation_pin_layout_height">52dp</dimen>
+    <dimen name="activation_pin_size">16dp</dimen>
+    <dimen name="activation_otp_line_width">2dp</dimen>
+    <dimen name="activation_fab_icon_size">60dp</dimen>
+    <dimen name="activation_fab_radius_size">30dp</dimen>
+
+    //============= Account View ===========================//
+    <dimen name="view_account_default_height">90dp</dimen>
+    <dimen name="view_account_my_card_height">100dp</dimen>
+    <dimen name="fab_actions_spacing">8dp</dimen>
+
+    //========== Picker size ===========//
+    <dimen name="size_picker">118dp</dimen>
+    <dimen name="loading_progress_size">48dp</dimen>
+
+    //============= Button ===========================//
+    <dimen name="bottom_sheet_height">56dp</dimen>
+    <dimen name="confirm_button_height">48dp</dimen>
+
+
+    <dimen name="bottom_curve_height">60dp</dimen>
+    <dimen name="bottom_curve_shadow_position">57dp</dimen>
+    <dimen name="bottom_curve_shadow_height">6dp</dimen>
+    <dimen name="actionBarSize">227dp</dimen>
+    <dimen name="profile_layout_size">271dp</dimen>
+    <dimen name="citizen_auto_resize_edit_text_size">50dp</dimen>
+    <dimen name="bg_landing_height">250dp</dimen>
+    <dimen name="bg_account_list_height">170dp</dimen>
+
+    <dimen name="landing_curve_height">70dp</dimen>
+    <dimen name="landing_padding">0dp</dimen>
+    <dimen name="landing_shadow">2dp</dimen>
+    <dimen name="landing_shadow_dy">1dp</dimen>
+    <dimen name="bezier_background_view_height">70dp</dimen>
+    <dimen name="account_detail_slider_height">84dp</dimen>
+    <dimen name="account_detail_slider_title_height">72dp</dimen>
+
+    <dimen name="circle_pie_chart">8dp</dimen>
+    <dimen name="border_height_pie_chart">18dp</dimen>
+    <dimen name="pie_chart_height">160dp</dimen>
+    <dimen name="account_detail_bottom_menu_layout_height">92dp</dimen>
+
+    <dimen name="shortcut_box_width">246dp</dimen>
+    <dimen name="image_in_time_line">25dp</dimen>
+    <dimen name="action_bar_icon_width">56dp</dimen>
+
+    <dimen name="my_fund_pie_chart_size">236dp</dimen>
+    <dimen name="my_fund_pie_chart_stroke">13dp</dimen>
+    <dimen name="my_fund_pie_chart_knob_size">20dp</dimen>
+    <dimen name="cardElevation">8dp</dimen>
+    <dimen name="cardRadius">8dp</dimen>
+    //============= Login View ===========================//
+    <dimen name="login_pin_size">24dp</dimen>
+    <dimen name="login_circle_pin_size">40dp</dimen>
+    <dimen name="login_circle_radius_pin_size">20dp</dimen>
+    <dimen name="login_circle_shadow_pin_size">14dp</dimen>
+
+    <dimen name="timeline_radius">12.5dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="min_height_content_pre_post">0dp</dimen>
+    <dimen name="height_button_done_pre_post">52dp</dimen>
+    <dimen name="minWidthButton">184dp</dimen>
+    <dimen name="bg_payment_height">228dp</dimen>
+
+    <dimen name="space_bottom_banner_scan_payment">292dp</dimen>
+    <dimen name="recipient_menu_elevation">2dp</dimen>
+    <dimen name="menu_shortcut_elevation">4dp</dimen>
+
+    <dimen name="empty_image_size">140dp</dimen>
+    <dimen name="grid_horizontal_spacing">5dp</dimen>
+    <dimen name="margin_bottom_height_search_layout">0dp</dimen>
+
+</resources>

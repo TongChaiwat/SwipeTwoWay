@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorPrimary">#D83152</color>
+    <color name="colorPrimaryDark">#9C233B</color>
+    <color name="colorAccent">#D83152</color>
+    <color name="colorTransparent">@android:color/transparent</color>
+    <!--Themes-->
+    <color name="theme_green">@color/mymo_green</color>
+    <color name="theme_pink">@color/mymo_pink</color>
+    <color name="theme_yellow">@color/mymo_yellow</color>
+    <color name="theme_blue">@color/mymo_blue</color>
+    <color name="theme_accent">#D83152</color>
+
+    <!-- Font -->
+    <color name="font_color">@color/mymo_black</color>
+
+    <!--Indicative-->
+    <color name="indicative_plus">@color/mymo_green</color>
+    <color name="indicative_minus">@color/mymo_red</color>
+
+    <!--Source-->
+    <color name="mymo_pink_accent">#D83152</color>
+    <color name="mymo_pink_accent_24">#3DD83152</color>
+    <color name="mymo_green">#9FEDF2</color>
+    <color name="mymo_green_loan">#54BCB5</color>
+    <color name="mymo_pink">#F39AAF</color>
+    <color name="mymo_pink_landing">#EA6B7A</color>
+    <color name="mymo_pink_accent_10">#1AD83152</color>
+    <color name="mymo_yellow">#FAE694</color>
+    <color name="mymo_blue">#76CFF5</color>
+    <color name="mymo_red">#FF3B30</color>
+    <color name="mymo_light_gray">#F8F8F8</color>
+    <color name="mymo_light_gray_new">#FAFBFC</color>
+    <color name="mymo_light_gray_background">#F4F4F4</color>
+    <color name="mymo_gray_landing_light">#E7EAED</color>
+    <color name="mymo_gray_account_light">#9B9B9B</color>
+    <color name="mymo_mid_gray">#C7C7CC</color>
+    <color name="mymo_mid_gray_2">#CCCCCC</color>
+    <color name="mymo_line_gray_top_up">#DFDFE1</color>
+    <color name="mymo_mid_gray_statement">#8F747474</color>
+    <color name="mymo_mid_gray_statement_sub">#33747474</color>
+    <color name="mymo_system_gray">#8E8E93</color>
+    <color name="mymo_account_gray">#EDEFF2</color>
+    <color name="mymo_gray_landing">#707070</color>
+    <color name="mymo_system_gray_24">#3C8E8E93</color>
+    <color name="mymo_white">#FFFFFF</color>
+    <color name="mymo_white_74">#5CFFFFFF</color>
+    <color name="mymo_white_70">#EFEFEF</color>
+    <color name="mymo_white_56">#8FFFFFFF</color>
+    <color name="mymo_black">#000000</color>
+    <color name="mymo_black_56">#8F000000</color>
+    <color name="mymo_black_54">#8A000000</color>
+    <color name="mymo_black_40">#66000000</color>
+    <color name="mymo_black_87">#DE000000</color>
+    <color name="mymo_black_88">#2E000000</color>
+    <color name="mymo_black_20">#DD000000</color>
+    <color name="mymo_black_24">#3D000000</color>
+    <color name="mymo_black_26">#24000000</color>
+    <color name="mymo_black_29">#29000000</color>
+    <color name="mymo_black_30">#8F000000</color>
+    <color name="mymo_white_overlay">#78ffffff</color>
+    <color name="mymo_black_overlay_10">#1A000000</color>
+    <color name="mymo_black_0">#00000000</color>
+    <color name="mymo_mid_black">#3F3F3F</color>
+    <color name="mymo_green_mid">#41B254</color>
+    <color name="mymo_black_47">#75000000</color>
+    <color name="bg_promptpay_banner">#0E3D67</color>
+    <color name="mymo_status_bar">#FEB1C4</color>
+    <color name="mymo_green_light">#5CE5E0</color>
+    <color name="mymo_gray_text">#C2C2C2</color>
+    <color name="mymo_gray">#8F8F8F</color>
+    <color name="mymo_mid_blue">#007AFF</color>
+    <color name="link_blue">#1F1A98</color>
+    <color name="pin_normal">#6B767E</color>
+    <color name="bg_prompt_pay">#c1ced9</color>
+    <color name="error_red_color">#DEFF0000</color>
+    <color name="red_amount_schedule">#C74155</color>
+    <color name="grey_tdr_opt_in_button">#D1D1D1</color>
+    <color name="red_tdr_opt_in">#DC3557</color>
+    <color name="grey_tdr_opt_in">#F5F5F5</color>
+    <color name="green_tdr_opt_in">#2CA87C</color>
+    <color name="label_dialog">#E5E5EA</color>
+    <color name="plus_green_color">#4CD964</color>
+    <color name="seekbar_progress_color">#E5E5EA</color>
+    <color name="line_item_search_company">#DFDFE1</color>
+    <color name="bg_schedule_green">#43D98E</color>
+    <color name="tdr_opt_in_success_green">#18AF67</color>
+    <color name="favorite_group_color_gray">#C7C7C7</color>
+    <color name="background_border_pie_chart_color">#E8E8E8</color>
+
+    <color name="timeline_digital_salak_color">#FF8840</color>
+    <color name="timeline_digital_salak_gradient_color">#F9AD4C</color>
+    <color name="timeline_fixed_deposit_color">#2796E5</color>
+    <color name="timeline_fixed_deposit_gradient_color">#25CFE7</color>
+    <color name="timeline_saving_color">#E04369</color>
+    <color name="timeline_saving_gradient_color">#FF7295</color>
+    <color name="timeline_loan_color">#00CDCE</color>
+    <color name="timeline_loan_gradient_color">#2CBFCF</color>
+    <color name="timeline_monthly_fixed_color">#57E8CE</color>
+    <color name="timeline_gsb_life_color">#6B67EA</color>
+    <color name="timeline_gsb_life_gradient_color">#5EA5E7</color>
+
+    <color name="background_camera_frame">#CC000000</color>
+
+    //======== shadow ==========//
+    <color name="shadow_start_color">#08BEBEBE</color>
+    <color name="shadow_pin_color">#B3E9E9EA</color>
+    <color name="shadow_item_fix_color">#CCE9E9EA</color>
+    <color name="status_bar_color">@color/mymo_black</color>
+    <color name="timeline_border">#E0E0E0</color>
+    <color name="liims">#C9CFFF</color>
+    <color name="light_grey">#8D8D8D</color>
+    <color name="light_pink">#ED817E</color>
+    <color name="search_box_shadow">#B38088A0</color>
+    <color name="search_icon">#DF4C73</color>
+    <color name="shadow_shortcut_menu">#FFAFAFAF</color>
+    <color name="background_next">#E4E8EA</color>
+    <color name="shadow_account_card">#CCE9E9EA</color>
+
+    <color name="color_white_background_transition">#FDFDFE</color>
+
+    <color name="eslip_success">#2CA87C</color>
+    <color name="eslip_fail">#DB4949</color>
+</resources>

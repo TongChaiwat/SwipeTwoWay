@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <com.charmist.swipetwoway.SwipeRevealLayout
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                app:cardBackgroundColor="@color/teal_200"
+
+                android:id="@+id/cardViewgg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin_56"
+                android:layout_marginEnd="@dimen/default_margin_16"
+                app:cardCornerRadius="@dimen/cardview_corner_radius_l"
+                app:cardElevation="3dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/llDepositDetailgg"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardImageBankgg"
+                            android:layout_width="@dimen/image_in_time_line"
+                            android:layout_height="@dimen/image_in_time_line"
+                            android:layout_marginStart="@dimen/default_margin_8"
+                            android:visibility="visible"
+                            app:cardBackgroundColor="@color/teal_200"
+                            app:cardElevation="0dp"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardUseCompatPadding="false"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorTransparent"
+                                android:elevation="@dimen/default_zero"
+                                app:cardBackgroundColor="@color/colorTransparent"
+                                app:cardCornerRadius="12.5dp"
+                                app:cardElevation="@dimen/default_zero"
+                                app:cardPreventCornerOverlap="false"
+                                app:cardUseCompatPadding="false">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:id="@+id/bg_deposit_fromgg"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@color/colorPrimaryDark" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <ImageView
+                                android:id="@+id/imageDepositgg"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/default_margin_16"
+                            android:layout_marginEnd="@dimen/default_margin_8"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cardImageBankgg"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textTransactionTypegg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/default_margin_8"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:textColor="@color/mymo_black_87"
+                                    android:text="DEPOSIT sdsddsuhsudhdsuhosdssdsdcxcxc" />
+
+                                <TextView
+                                    android:id="@+id/textDepositNamegg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/default_margin_8"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:textColor="@color/mymo_black_56"
+                                    android:text="Name cxxcxcc xccxxcxccxxxcxcxcxcxcxccxxc" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical|end"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textAmountgg"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="end|center_vertical"
+                                    android:maxLines="1"
+                                    android:textColor="@color/mymo_gray_landing"
+                                    app:autoSizeMaxTextSize="@dimen/text_size_16"
+                                    app:autoSizeMinTextSize="@dimen/text_size_5"
+                                    app:autoSizeStepGranularity="2sp"
+                                    android:text="+1,000,00" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3gg"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/llDepositDetailgg">
+
+                        <TextView
+                            android:id="@+id/textTopDepositgg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textDepositDategg"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintHorizontal_weight="3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="ACCOUNT ACCOUNT NOTE" />
+
+                        <TextView
+                            android:id="@+id/textDepositDategg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toStartOf="@+id/textDepositTimegg"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="20 JAN |" />
+
+                        <TextView
+                            android:id="@+id/textDepositTimegg"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/default_margin_2"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="2:00 PM" />
+
+                        <TextView
+                            android:id="@+id/textBottomDepositgg"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/default_margin_8"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textTopDepositgg"
+                            android:text="Tags: #Family #Mommy #Daddy #Dinner" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                app:layout_constraintStart_toStartOf="@+id/cardViewgg"
+                app:layout_constraintTop_toBottomOf="@+id/cardViewgg" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4gg"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.21" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin_56"
+                android:layout_marginEnd="@dimen/default_margin_16"
+                app:cardCornerRadius="@dimen/cardview_corner_radius_l"
+                app:cardElevation="3dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/llDepositDetail"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8">
+
+                        <androidx.cardview.widget.CardView
+                            android:id="@+id/cardImageBank"
+                            android:layout_width="@dimen/image_in_time_line"
+                            android:layout_height="@dimen/image_in_time_line"
+                            android:layout_marginStart="@dimen/default_margin_8"
+                            android:visibility="visible"
+                            app:cardElevation="0dp"
+                            app:cardPreventCornerOverlap="false"
+                            app:cardUseCompatPadding="false"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorTransparent"
+                                android:elevation="@dimen/default_zero"
+                                app:cardBackgroundColor="@color/colorTransparent"
+                                app:cardCornerRadius="12.5dp"
+                                app:cardElevation="@dimen/default_zero"
+                                app:cardPreventCornerOverlap="false"
+                                app:cardUseCompatPadding="false">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="horizontal">
+
+                                    <View
+                                        android:id="@+id/bg_deposit_from"
+                                        android:layout_width="0dp"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:background="@color/colorPrimaryDark" />
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <ImageView
+                                android:id="@+id/imageDeposit"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </androidx.cardview.widget.CardView>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="@dimen/default_margin_16"
+                            android:layout_marginEnd="@dimen/default_margin_8"
+                            android:orientation="horizontal"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/cardImageBank"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textTransactionType"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/default_margin_8"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:textColor="@color/mymo_black_87"
+                                    android:text="DEPOSIT sdsddsuhsudhdsuhosdssdsdcxcxc" />
+
+                                <TextView
+                                    android:id="@+id/textDepositName"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginEnd="@dimen/default_margin_8"
+                                    android:ellipsize="end"
+                                    android:singleLine="true"
+                                    android:textColor="@color/mymo_black_56"
+                                    android:text="Name cxxcxcc xccxxcxccxxxcxcxcxcxcxccxxc" />
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center_vertical|end"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/textAmount"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:gravity="end|center_vertical"
+                                    android:maxLines="1"
+                                    android:textColor="@color/mymo_gray_landing"
+                                    app:autoSizeMaxTextSize="@dimen/text_size_16"
+                                    app:autoSizeMinTextSize="@dimen/text_size_5"
+                                    app:autoSizeStepGranularity="2sp"
+                                    android:text="+1,000,00" />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/constraintLayout3"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="@dimen/default_margin_8"
+                        android:paddingBottom="@dimen/default_margin_8"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@id/llDepositDetail">
+
+                        <TextView
+                            android:id="@+id/textTopDeposit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintEnd_toStartOf="@+id/textDepositDate"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintHorizontal_weight="3"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="ACCOUNT ACCOUNT NOTE" />
+
+                        <TextView
+                            android:id="@+id/textDepositDate"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toStartOf="@+id/textDepositTime"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="20 JAN |" />
+
+                        <TextView
+                            android:id="@+id/textDepositTime"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="8dp"
+                            android:paddingStart="@dimen/default_margin_2"
+                            android:textColor="@color/mymo_gray_landing"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            android:text="2:00 PM" />
+
+                        <TextView
+                            android:id="@+id/textBottomDeposit"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/default_margin_8"
+                            android:ellipsize="end"
+                            android:gravity="center_vertical"
+                            android:paddingStart="@dimen/default_margin_8"
+                            android:singleLine="true"
+                            android:textColor="@color/mymo_black_56"
+                            android:visibility="gone"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintHorizontal_bias="0.5"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@id/textTopDeposit"
+                            android:text="Tags: #Family #Mommy #Daddy #Dinner" />
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="4dp"
+                app:layout_constraintStart_toStartOf="@+id/cardView"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/guideline4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.21" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </com.charmist.swipetwoway.SwipeRevealLayout>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
